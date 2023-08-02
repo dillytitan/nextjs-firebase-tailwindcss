@@ -3,7 +3,7 @@ import type { AppProps } from "next/app";
 import Layout from "../components/layout";
 import FirebaseProvider from "../lib/authContext";
 import "../lib/firebaseConfig/init";
-
+import "../styles/global.css"
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <FirebaseProvider>

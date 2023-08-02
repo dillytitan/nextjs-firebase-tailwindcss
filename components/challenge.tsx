@@ -6,9 +6,9 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 
 const challenge = [
-    { id: 1, name: 'My Hero Academia Ultra Rare', image: 'https://timelinecovers.pro/facebook-cover/download/anime-my-hero-academia-izuku-midoriya-katsuki-bakugou-boku-no-hero-academia-facebook-cover.jpg' },
-    { id: 2, name: 'Hello Kitty Ultra Rare', image: 'https://www.showtimeattractions.com.au/wp-content/uploads/Hello-Kitty-banner.jpg' },
-    { id: 3, name: 'Jujutsu Kaisen Ultra Rare', image: 'https://pbs.twimg.com/media/Eljq4M_WoAAWHQp?format=webp&name=medium' },
+    { id: 1, name: 'MHA Ultra Rare', image: 'https://timelinecovers.pro/facebook-cover/download/anime-my-hero-academia-izuku-midoriya-katsuki-bakugou-boku-no-hero-academia-facebook-cover.jpg' },
+    { id: 2, name: 'HK Ultra Rare', image: 'https://www.showtimeattractions.com.au/wp-content/uploads/Hello-Kitty-banner.jpg' },
+    { id: 3, name: 'JJK Ultra Rare', image: 'https://pbs.twimg.com/media/Eljq4M_WoAAWHQp?format=webp&name=medium' },
 
 
 

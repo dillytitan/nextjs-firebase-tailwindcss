@@ -47,7 +47,7 @@ const Home: NextPage = () => {
           <div className="flex-grow px-2 pt-2">
             <HeroImageCarousel images={images} />
           </div>
-          <div className="flex justify-evenly space-x-4 p-4  mt-2 mb-4 border-b uppercase">
+          <div className="flex justify-evenly space-x-2 p-4  mt-2 mb-4 border-b uppercase">
             <button onClick={() => setActiveTab('Series')} className={activeTab === 'Series' ? 'text-blue-600 font-extrabold' : ''}>Series</button>
             <button onClick={() => setActiveTab('Products')} className={activeTab === 'Products' ? 'text-blue-600 font-extrabold' : ''}>Products</button>
             <button onClick={() => setActiveTab('Most Redeemed')} className={activeTab === 'Most Redeemed' ? 'text-blue-600' : ''}>Most Redeemed</button>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
           </div>
           {/* Horizontal Product Slider */}
           <div className="h-auto">
-            <div className="flex justify-evenly space-x-4 p-4mb-4uppercase">
+            <div className="flex justify-evenly space-x-2 p-4mb-4uppercase">
             </div>
             <ProductSlider products={products} />
           </div>
