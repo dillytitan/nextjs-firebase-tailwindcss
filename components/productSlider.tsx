@@ -7,7 +7,17 @@ type ProductSliderProps = {
 };
 
 const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => (
-  <Splide options={{ type: 'loop', perPage: 4 }}>
+  <Splide
+    options={{
+      type: 'loop',
+      perPage: 4,
+      breakpoints: {
+        640: { // Breakpoint for mobile (You can adjust the value as per your requirements)
+          perPage: 3, // Show only 3 products on mobile
+        },
+      },
+    }}
+  >
     {products.map((product) => (
       <SplideSlide key={product.id}>
         <div className="p-2 space-x-4">
