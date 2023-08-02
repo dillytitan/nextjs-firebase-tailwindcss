@@ -44,7 +44,7 @@ const Home: NextPage = () => {
       <div className="flex flex-col sm:flex-row max-h-3/4 items-center justify-center">
         <div className="w-full sm:w-3/4 flex flex-col h-full space-y-2 overflow-hidden">
           {/* Hero Image Carousel Slider */}
-          <div className="flex-grow">
+          <div className="flex-grow px-2 pt-2">
             <HeroImageCarousel images={images} />
           </div>
           <div className="flex justify-evenly space-x-4 p-4  mt-2 mb-4 border-b uppercase">

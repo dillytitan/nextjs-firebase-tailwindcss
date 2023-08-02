@@ -50,7 +50,7 @@ const challenge = [
           }}>
           {challenge.map((challenge) => (
           <SplideSlide key={challenge.id}>
-            <div className="pl-4 text-gray-600">
+            <div className="px-2 text-gray-600">
 
               <img src={challenge.image} alt={challenge.name} className="rounded-3xl" />
               <div className="relative pt-1">
