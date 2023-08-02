@@ -13,7 +13,7 @@ const BrandBar = () => {
         <span className="text-white"> | </span>
         <Link href="https://cybercel.com">
           <a>
-            <img src="/Cybercel.png" alt="Logo 2" className="h-4 pl-4 w-auto grayscale-0" />
+            <img src="/CyberCel.png" alt="Logo 2" className="h-4 pl-4 w-auto grayscale-0" />
           </a>
         </Link>
       </div>
