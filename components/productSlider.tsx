@@ -13,7 +13,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => (
       perPage: 4,
       breakpoints: {
         640: { // Breakpoint for mobile (You can adjust the value as per your requirements)
-          perPage: 3, // Show only 3 products on mobile
+          perPage: 2, // Show only 3 products on mobile
         },
       },
     }}

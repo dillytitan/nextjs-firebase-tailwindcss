@@ -36,12 +36,12 @@ const challenge = [
     }, []);
   
     return (
-      <div className={isVertical ? 'w-full h-full border-l ml-2' : 'w-full mt-8 border-none'}>
+      <div className={isVertical ? 'w-full h-full border-l ml-2' : 'w-full border-none'}>
         <Splide
           options={{
             direction: isVertical ? 'ttb' : 'ltr',
             height: isVertical ? '50%' : 'auto',
-            perPage: 1,
+            perPage: 2,
             breakpoints: {
                 640: { 
                   perPage: 2,
@@ -53,7 +53,7 @@ const challenge = [
             <div className="px-2 text-gray-600">
 
               <img src={challenge.image} alt={challenge.name} className="rounded-3xl" />
-              <div className="relative pt-1">
+              <div className="relative p-1">
                 <div className="flex items-center justify-between">
                   <div>
                     <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-teal-600 bg-teal-200">
@@ -62,7 +62,7 @@ const challenge = [
                   </div>
                   <div className="text-right">
                     <span className="text-xs font-semibold inline-block text-teal-600">
-                    🏆 65% {/* You can replace this with the actual progress value */}
+                    🏆 65% 
                     </span>
                   </div>
                 </div>
