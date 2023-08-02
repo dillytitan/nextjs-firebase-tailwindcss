@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         <title>Home</title>
       </Head>
 
-      <div className="flex flex-col sm:flex-row max-h-3/4 mt-8 items-center justify-center">
+      <div className="flex flex-col sm:flex-row max-h-3/4 items-center justify-center">
         <div className="w-full sm:w-3/4 flex flex-col h-full space-y-2 overflow-hidden">
           {/* Hero Image Carousel Slider */}
           <div className="flex-grow">
@@ -54,14 +54,14 @@ const Home: NextPage = () => {
             <button onClick={() => setActiveTab('Most Redeemed')} className={activeTab === 'Most Redeemed' ? 'text-blue-600' : ''}>Challenges</button>
           </div>
           {/* Horizontal Product Slider */}
-          <div className="h-1/4 sm:h-auto">
+          <div className="h-auto">
             <div className="flex justify-evenly space-x-4 p-4mb-4uppercase">
             </div>
             <ProductSlider products={products} />
           </div>
         </div>
 
-        <div className="w-full sm:w-1/4 h-1/2 sm:h-auto sm:ml-4 sm:pl-4">
+        <div className="w-full sm:w-1/4 h-auto sm:h-auto sm:ml-4 sm:pl-4">
           <Challenges challenges={challenges} />
           
         </div>

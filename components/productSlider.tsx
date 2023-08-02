@@ -21,7 +21,7 @@ const ProductSlider: React.FC<ProductSliderProps> = ({ products }) => (
     {products.map((product) => (
       <SplideSlide key={product.id}>
         <div className="p-2 space-x-4">
-          <img src={product.image} alt={product.name} className="rounded-3xl space-x-4" />
+          <img src={product.image} alt={product.name} className="rounded-3xl" />
           <h3 className="text-gray-600">{product.name}</h3>
         </div>
       </SplideSlide>

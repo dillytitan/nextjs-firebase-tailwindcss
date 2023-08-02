@@ -44,7 +44,7 @@ export default function Header(props: any) {
 
       {/* Mobile navigation */}
       <div className="sm:hidden fixed bottom-0 w-full bg-white border-t shadow-lg flex justify-around items-center p-2 pb-8">
-      <div className="fixed z-50 h-16 w-full  bg-white border border-gray-200 rounded-full dark:bg-gray-700 dark:border-gray-600">
+      <div className="fixed z-50 sm:h-16 w-full  bg-white border border-gray-200 rounded-full dark:bg-gray-700 dark:border-gray-600">
     <div className="grid h-full max-w-lg grid-cols-5 mx-auto">
         <button data-tooltip-target="tooltip-home" type="button" className="inline-flex flex-col items-center justify-center px-5 rounded-l-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
             <svg className="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
