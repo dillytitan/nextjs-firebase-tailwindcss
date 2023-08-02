@@ -10,7 +10,7 @@ import ProductSlider from "../components/productSlider";
 import HeroImageCarousel from "../components/heroSlider";
 
   const images = [
-    'https://figpin.com/cdn/shop/files/GIFT_CARDS_COLOR_GENERIC_2048x.jpg?v=1683044828',
+    'https://img.freepik.com/free-vector/anime-offline-banner-twitch_79603-2018.jpg?w=2000&t=st=1690953513~exp=1690954113~hmac=83eea2f688d204b3843ee6d70dee2f990f6181bfdd5cd7add431db0f9b8b737b',
     'https://figpin.com/cdn/shop/files/GIFT_CARDS_COLOR_GENERIC_2048x.jpg?v=1683044828',
     'https://figpin.com/cdn/shop/files/GIFT_CARDS_COLOR_GENERIC_2048x.jpg?v=1683044828',
     
