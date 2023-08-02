@@ -1,5 +1,6 @@
 import Header from "./header";
 import Footer from "./footer";
+import BrandBar from "../brandBar";
 
 type Props = {
   children: React.ReactNode;
@@ -12,6 +13,7 @@ export default function Layout({ children }: Props) {
     divide-y divide-black-500"
     >
       <div className=" sm:h-16 ">
+        <BrandBar />
         <Header />
       </div>
       <div className="flex-grow">{children}</div>
